@@ -1,20 +1,23 @@
 import React from 'react';
+import analytics from '../assets/analytics.png';
+import collab from '../assets/collab.png';
+import integration from '../assets/integration.png';
 
 export const page1 = [
   {
     title: 'Seamless AI Integration',
     content: 'Leverage cutting-edge AI solutions with intuitive deployment, real-time optimization, and seamless enterprise integration.',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
+    src: integration,
   },
   {
     title: 'Advanced Data Analytics',
     content: 'Gain deep insights with built-in analytics, allowing you to monitor AI performance and optimize business processes efficiently.',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
+    src: analytics,
   },
   {
     title: 'Enterprise Collaboration',
     content: 'Enhance teamwork with AI-powered solutions designed for seamless collaboration, resource sharing, and efficient workflow management.',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png',
+    src: collab,
   },
 ];
 
