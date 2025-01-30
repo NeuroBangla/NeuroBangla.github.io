@@ -1,5 +1,6 @@
 import React from 'react';
 import { footer } from './data';
+import logo from '../assets/logo.svg';
 
 function antCloudFooter() {
   const children = footer.map((item, i) => (
@@ -10,7 +11,7 @@ function antCloudFooter() {
   return (
     <div>
       <div className="logo" key="logo">
-        <img src="https://gw.alipayobjects.com/zos/rmsportal/dnIbXmAgGbRxQJksRsJL.svg" width="72" height="82" alt="Neuro Bangla Logo" />
+        <img src={logo} width="72" height="82" alt="Neuro Bangla Logo" />
       </div>
       <div key="nav" className="home-footer-nav-wrapper">
         {children}
