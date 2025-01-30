@@ -243,9 +243,9 @@ export const page4 = [
 ];
 
 export const footer = [
-  { text: '解决方案', src: '#' },
-  { text: '使用帮助', src: '#' },
-  { text: '模板开发文档', src: '#' },
-  { text: '模板开发工具', src: '#' },
-  { text: '联系我们', src: 'mailto:zhao.wuz@antfin.com' },
+  { text: 'Solutions', src: '#' },
+  { text: 'Support & Documentation', src: '#' },
+  { text: 'API Documentation', src: '#' },
+  { text: 'Developer Tools', src: '#' },
+  { text: 'Contact Us', src: 'mailto:maifeeulasad@gmail.com' },
 ];
