@@ -38,13 +38,12 @@ export const page2 = [
 
 export const page3 = [
   {
-    title: '个人版',
+    title: 'Standard Plan',
     content: [
-      <p key="1">支持 H5 站点制作</p>,
-      <p key="2">支持模板管理</p>,
-      <p key="3">支持数据分析</p>,
+      <p key="1">Access to AI-powered solutions</p>,
+      <p key="2">Self Hosted Analytics</p>,
+      <p key="3">Basic analytics and insights</p>,
     ],
-    // exp: '免费使用',
     svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
       <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="98.8500478%" id="linearGradient-1">
@@ -80,14 +79,14 @@ export const page3 = [
     </svg>),
   },
   {
-    title: '企业版',
+    title: 'Enterprise Plan',
     content: [
-      <p key="1">支持 H5 站点制作</p>,
-      <p key="2">支持模板管理，实现模板共享</p>,
-      <p key="3">支持工作组管理，实现多人协作</p>,
-      <p key="4">支持自定义发布审批流</p>,
-      <p key="5">支持自定义域名</p>,
-      <p key="6">支持成员管理</p>,
+      <p key="1">Advanced AI model deployment</p>,
+      <p key="2">Customizable templates and shared models</p>,
+      <p key="3">Team collaboration with role-based access</p>,
+      <p key="4">Custom approval workflows for AI deployment</p>,
+      <p key="5">Support for custom domains</p>,
+      <p key="6">User and access management</p>,
     ],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -119,13 +118,14 @@ export const page3 = [
       </svg>),
   },
   {
-    title: '企业 VIP 版',
+    title: 'Enterprise VIP Plan',
     content: [
-      <p key="1">支持通过 OpenAPI 调用制作流程</p>,
-      <p key="2">可以指定可用模板，企业内共享模板</p>,
-      <p key="3">支持创建多个企业级账户</p>,
-      <p key="4">支持自定义发布审批流</p>,
-      <p key="5">支持自定义域名</p>],
+      <p key="1">API access for seamless AI integration</p>,
+      <p key="2">Custom model library with enterprise-wide sharing</p>,
+      <p key="3">Support for multiple enterprise accounts</p>,
+      <p key="4">Custom approval workflows for AI governance</p>,
+      <p key="5">Support for custom domains</p>,
+    ],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
         <path
