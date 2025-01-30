@@ -7,28 +7,30 @@ import BannerImage from './BannerImage';
 class Banner extends React.PureComponent {
   static propTypes = {
     className: PropTypes.string,
-  }
+  };
+
   static defaultProps = {
     className: 'home-banner',
-  }
+  };
+
   render() {
     const { className } = this.props;
     return (
       <div className={`home-layout-wrapper ${className}`}>
         <div className="home-layout">
           <QueueAnim className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
-            <h1 key="h2">
-              极简制作，一键呈现
-            </h1>
-            <p key="p">为您提供专业的云上建站服务，满足不同行业的个性化需求</p>
+            <h1 key="h2">Neuro Bangla</h1>
+            <p key="p">
+              Neuro Bangla: Enterprise-grade AI ensuring data privacy, cost-effectiveness, and high-speed processing.
+            </p>
             <span key="button">
               <Button
                 type="primary"
                 onClick={() => {
-                window.location.href = '/activity/home';
-              }}
+                  window.location.href = 'https://neurobangla.github.io/ocr-landing/';
+                }}
               >
-                开始使用
+                More on OCR
               </Button>
             </span>
           </QueueAnim>
