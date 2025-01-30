@@ -2,18 +2,18 @@ import React from 'react';
 
 export const page1 = [
   {
-    title: '轻松建站',
-    content: '支持可视化编辑、自由拖拽排版、实时预览、在线访问加速等功能',
+    title: 'Seamless AI Integration',
+    content: 'Leverage cutting-edge AI solutions with intuitive deployment, real-time optimization, and seamless enterprise integration.',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
   },
   {
-    title: '数据分析',
-    content: '网站内设有数据监测埋点，助你时刻掌握站点效果，鉴别有效渠道',
+    title: 'Advanced Data Analytics',
+    content: 'Gain deep insights with built-in analytics, allowing you to monitor AI performance and optimize business processes efficiently.',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
   },
   {
-    title: '企业协同',
-    content: '企业版支持以团队管理的方式，多人协作完成营销站点，共享资源',
+    title: 'Enterprise Collaboration',
+    content: 'Enhance teamwork with AI-powered solutions designed for seamless collaboration, resource sharing, and efficient workflow management.',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png',
   },
 ];
