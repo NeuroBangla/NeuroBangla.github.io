@@ -26,7 +26,6 @@
     "dora-plugin-webpack": "^1.0.0",
     "expect": "^29.7.0",
     "gh-pages": "^6.3.0",
-    "pre-commit": "^1.0.10",
     "redbox-react": "^1.5.0"
   },
   "scripts": {
