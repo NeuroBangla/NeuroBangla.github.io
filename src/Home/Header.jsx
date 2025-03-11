@@ -8,7 +8,7 @@ export default function Header(props) {
           <a>
             <span>Neuro Bangla</span>
           </a>
-          <span>Innovating AI for Enterprises</span>
+          <span>Innovating AI for Enterprises | 🇧🇩</span>
         </h1>
       </div>
     </header>
